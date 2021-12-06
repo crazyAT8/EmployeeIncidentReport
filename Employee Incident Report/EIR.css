@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sans;
+}
+body {
+    margin: 50px;
+    
+}
+
+header img {
+    margin: 50px 10px;
+    margin-left: 150px;
+    margin-bottom: 0;
+  }
+  #title {
+    padding: 10px 60px;
+    margin-right: 150px;
+    text-align: right;
+  }
+  h5 {
+    margin-right: 90px;
+  }
+  
+  #disclaimer {
+    text-align: center;
+    border: solid 1px white;
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(211, 209, 209);
+  }
+  form {
+    padding: 15px
+  }
+  .fullRow {
+    border: solid 1px #4fc1b1;
+    width: 100%;
+    padding: 15px;
+    padding-top: 15px;
+    position: relative
+  }
+  .inputBox {
+    border: solid 1px #4fc1b1;
+    display: inline;
+    width: 50%;
+    float: left;
+    padding: 15px;
+    position: relative;
+  }
+  #question7 {
+      padding-bottom: 10px;
+  }
+  #question8 {
+      padding-bottom: 10px;
+  }
+  #question12 {
+      border: solid 1px bl#4fc1b1;
+  }
+  #question15 {
+      padding: 35px;
+  }
+  .textArea1 {
+    display: inline;
+    width: 20%;
+    float: left;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+  }
+  .textArea2 {
+    display: inline;
+    width: 30%;
+    float: left;
+    padding: 15px;
+    position: relative;
+  }
+  .textArea3 {
+    display: inline;
+    width: 30%;
+    float: right;
+    padding: 15px;
+    position: relative;
+    text-align: right;
+  }
+  #question15 {
+      padding-top: 20px;
+  }
+  #question14 {
+    padding: 17px;
+  }
+  .container {
+    width: 100px;
+    margin: ;
+}
+canvas {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    background-image: url(bodyMap.png);
+    background-repeat: no-repeat;
+    border: solid 10px #ed9d62;
+    display: inline;
+    float: left;
+}
+  
+  
+  
+  @media only screen and (max-width: 700px) {
+    body {
+        margin: 40px;
+    }
+    img {
+      text-align: center;
+      height: 75px;
+      width: 200px;
+      margin-left: 25%;
+    }
+    #title {
+      text-align: center;
+      margin-right: 0;
+    }
+    h5 {
+        margin-right: 30px;
+    }
+    #disclaimer {
+        width: 75%;
+        margin-left: 15%;
+    }
+    #question1 {
+        text-align: center;
+    }
+    .inputBox {
+        display: block;
+        width: 100%;
+    }
+    .textArea1 {
+        display: block;
+        width: 100%;
+    }
+    .textArea2 {
+        display: block;
+        width: 100%;
+        left: 15%;
+    }
+    .textArea3 {
+        text-align: center;
+        float: left;
+    }
+    
+  }
